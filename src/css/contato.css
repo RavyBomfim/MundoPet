@@ -1,0 +1,123 @@
+.container {
+    padding-block: 40px;
+    background-color: var(--bg-color-light);
+    margin-bottom: 0;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-inline: auto;
+    padding-inline: 30px;
+}
+
+.section {
+    background-color: var(--font-color-footer);
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 300px;
+    margin-top: 0;
+}
+
+.informs_title {
+    font-size: 22px;
+    text-align: center;
+}
+
+.informs_title i {
+    margin-bottom: 3px;
+    color: var(--font-color-footer2);
+}
+
+.informs_title  .fa-map-marker:hover {
+    color: #772077;
+    background: linear-gradient(to right, #ff00ff, #862686, 
+    #43439c, #00ffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.informs_description {
+    font-size: 14px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    line-height: 18px;
+}
+
+.informs_description p, 
+.informs_description a {
+    display: block;
+    margin-top: 20px;
+}
+
+.informs_description p {
+    padding-bottom: 2px;
+}
+
+.opening_hours {
+    border-bottom: 1px solid #6f82adbb; 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 14px; 
+    margin: 0;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#contact .social-media {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#contact .social-media a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #772077 !important;
+}
+
+#contact .social-media div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--target-color);
+    border-radius: 3px;
+    color: var(--bg-color-dark);
+    font-size: 20px;display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+#contact .social-media i {
+    background-image: linear-gradient(to right, #ff00ff, #43439c, #252525);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#contact .social-media a:hover div {
+    background: var(--default-font-color);
+    border-color: var(--default-font-color);
+} 
+
+#contact .social-media a:hover i {
+    background: linear-gradient(to right, #ff00ff, #862686, 
+    #43439c, #00ffff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
