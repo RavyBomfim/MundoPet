@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/inicio.css">
-    <link rel="stylesheet" href="src/css/sobre.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <!-- <link rel="stylesheet" href="src/css/sobre.css"> -->
     <link rel="stylesheet" href="src/css/contato.css">
+    <link rel="stylesheet" href="src/css/resposividade.css">
 
     <script src="https://kit.fontawesome.com/42c4a27533.js" crossorigin="anonymous"></script>
 </head>
@@ -34,23 +35,23 @@
     </header>
     <main>
         <div class="container">
-            <div id="principal-title">
+            <div class="principal-title">
                 <h1>Contatos e Endereço</h1>
             </div>
-            <div class="content-box">
-                <section class="section">
+            <div class="informs-container">
+                <section class="informs-box" id="our_location">
                     <div class="informs_title">
                         <a href="https://goo.gl/maps/pWsVwqvCSxTAWKiv5" target="_blank"><i class="fa fa-map-marker"></i></a>
                         <div>Nossa localização</div>
                     </div>
                     <div class="informs_description">
                         <p>Mundo Pet - Pet shop</p>
-                        <p>Rua Fonte do Céu - 40</p>
-                        <p>Andaia</p>
+                        <p>Rua Fonte do Céu - nº 40</p>
+                        <p>Andaiá</p>
                         <p>Santo Antônio de Jesus, Bahia</p>
                     </div>
                 </section>
-                <section class="section">
+                <section class="informs-box">
                     <div class="informs_title">
                         <i class="fa fa-clock"></i>
                         <div>Horário de funcionamento</div>
@@ -66,37 +67,37 @@
                         </div>
                         <div class="opening_hours border">
                             <p>Domingos</p> 
-                            <p>8:30 - 13:00</p>
+                            <p>8:30 - 12:00</p>
                         </div>
                     </div>
                 </section>
-                <section class="section">
+                <section class="informs-box" id="contact">
                     <div class="informs_title">
-                        <i class="fa fa-address-book-o"></i>
+                        <i class="fa fa-address-book"></i>
                         <div>
                             Meios disponíveis para contato
                         </div>
                     </div>
-                    <div class="informs_description"  id="contact">
+                    <div class="informs_description">
                         <div class="social-media">
-                        <a href="#">
-                            <div>
-                                <i class="fa fa-facebook"></i>
-                            </div>
-                            Facebook
-                        </a>
-                        <a href="#">
-                            <div>
-                                <i class="fa fa-twitter"></i>
-                            </div>
-                            Twitter
-                        </a>
-                        <a href="#">
-                            <div>
-                                <i class="fa fa-instagram"></i>
-                            </div>
-                            Instagram
-                        </a>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                                Facebook
+                            </a>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                Twitter
+                            </a>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                                Instagram
+                            </a>
                         </div>
                         <div class="social-media">
                             <a href="#">
@@ -121,6 +122,12 @@
                     </div>
                 </section>
             </div>
+            <section class="section-location">
+                <div id="location">
+                    <h3>Visite a nossa Loja!</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9060456298234!2d-39.27839503038695!3d-12.977860831924655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73e2bf7390bf207%3A0x2213ddc0184a9b52!2sHVet%20Hospital%20Veterin%C3%A1rio!5e0!3m2!1spt-BR!2sbr!4v1689706264286!5m2!1spt-BR!2sbr" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
             <script
                 src="https://sleekflow.io/whatsapp-button.js"
                 async

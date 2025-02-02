@@ -3,14 +3,11 @@ section {
     flex-direction: column;
     align-items: center;
     margin-inline: auto;
-    margin-bottom: 30px;
 }
 
-#principal-title {
-    margin-top: 40px;
-    font-size: 50px;
+.principal-title {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 #subtitle {
@@ -21,6 +18,7 @@ section {
     text-align: center;
     padding: 10px 20px;
     transform: skew(-25deg);
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
@@ -43,8 +41,8 @@ article {
 
 article .title {
     flex-wrap: wrap;
-    padding: 10px 15px;
-    font-size: 17px;
+    padding: 7px 15px;
+    font-size: 1.06rem;
 }
 
 .article-body img {

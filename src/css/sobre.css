@@ -1,11 +1,11 @@
 section {
     margin-inline: auto;
+    margin-top: 40px;
 }
 
-#principal-title {
-    margin-top: 25px;
-    font-size: 70px;
-    margin-bottom: 50px;
+#about-us .principal-title {
+    font-size: 4.37rem;
+    margin-bottom: 20px;
     color: var(--bg-color-dark);
     line-height: normal;
 }
@@ -16,22 +16,4 @@ section {
 
 .article-body {
     color: var(--font-color-dark);
-}
-
-iframe {
-    width: 100%;
-}
-
-h3 {
-    margin-bottom: 5px;
-    padding: 10px;
-    background-color: var(--target-color);
-}
-
-@media(max-width: 1150px) {
-
-    #about-us .article-container {
-        flex-wrap: wrap;
-    }
-
 }

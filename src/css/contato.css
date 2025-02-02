@@ -1,10 +1,9 @@
 .container {
-    padding-block: 40px;
-    background-color: var(--bg-color-light);
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
-.content-box {
+.informs-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -13,45 +12,56 @@
     padding-inline: 30px;
 }
 
-.section {
-    background-color: var(--font-color-footer);
-    padding: 20px;
-    border-radius: 5px;
+.informs-box {
+    background-color:#c7ced1;
+    padding: 30px;
     flex: 1;
     min-width: 300px;
-    margin-top: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 7px 1px var(--font-color-footer2);
+    transition: ease-in-out 0.2s;
 }
 
 .informs_title {
-    font-size: 22px;
+    font-size: 1.37rem;
     text-align: center;
+    margin-bottom: 30px;
+    color: var(--bg-color-darker);
+    font-weight: 600;
 }
 
 .informs_title i {
-    margin-bottom: 3px;
-    color: var(--font-color-footer2);
+    margin-bottom: 5px;
+    color: var(--bg-color-darker);
 }
 
-.informs_title  .fa-map-marker:hover {
+.informs-box:hover .informs_title {
+    color: var(--bg-color-dark);
+}
+
+.informs-box:hover {
+    transform: scale(1.02);
+}
+
+.informs-box:hover i {
     color: #772077;
-    background: linear-gradient(to right, #ff00ff, #862686, 
-    #43439c, #00ffff);
+    /* background: linear-gradient(to right, #ff00ff, #862686, 
+    #43439c, #00ffff); */
+    background: var(--gradient-default);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
 .informs_description {
-    font-size: 14px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1rem; 
     margin-top: 20px; 
-    margin-bottom: 20px; 
-    line-height: 18px;
-}
-
-.informs_description p, 
-.informs_description a {
-    display: block;
-    margin-top: 20px;
+    line-height: 16px;
+    color: var(--bg-color-dark);
 }
 
 .informs_description p {
@@ -62,30 +72,36 @@
     border-bottom: 1px solid #6f82adbb; 
     display: flex; 
     justify-content: space-between; 
-    font-size: 14px; 
+    font-size: 1rem; 
     margin: 0;
+    margin-bottom: 10px;
 }
 
-#contact {
-    display: flex;
+#contact .informs_description {
+    flex-direction: row;
     justify-content: space-between;
     gap: 20px;
 }
 
 #contact .social-media {
     flex-direction: column;
+    gap: 18px;
     flex-wrap: wrap;
     margin: 0;
 }
 
 #contact .social-media a {
     display: flex;
-    gap: 10px;
+    gap: 7px;
     align-items: center;
-    color: #772077 !important;
+    /* color: #772077 !important; */
+    color: var(--bg-color-dark);
+    transition: ease-in-out 0.2s;
+    padding-top: 10px;
+    border-bottom: 1px solid #6f82adbb;
 }
 
-#contact .social-media div {
+/* #contact .social-media div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,30 +109,47 @@
     height: 25px;
     border: 1px solid var(--target-color);
     border-radius: 3px;
-    color: var(--bg-color-dark);
+    color: var(--target-color);
     font-size: 20px;display: flex;
     align-items: center;
     font-size: 16px;
-}
+    transition: ease-in-out 0.2s;
+} */
 
-#contact .social-media i {
+/* #contact .social-media i {
     background-image: linear-gradient(to right, #ff00ff, #43439c, #252525);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
+} */
 
-#contact .social-media a:hover div {
+/* #contact .social-media a:hover div {
     background: var(--default-font-color);
     border-color: var(--default-font-color);
-} 
+}  */
 
 #contact .social-media a:hover i {
-    background: linear-gradient(to right, #ff00ff, #862686, 
-    #43439c, #00ffff);
+    /* background: linear-gradient(to right, #ff00ff, #862686, 
+    #43439c, #00ffff); */
+    background: var(--gradient-default);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+}
+
+#contact .social-media a:hover {
+    background-image: var(--gradient-default);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1.05);
+}
+
+.section-location {
+    max-width: 100%;
+    margin-top: 35px;
+}
+
+#location {
+    width: calc(100% - 60px);
+    margin-inline: auto;
 }
 
 
