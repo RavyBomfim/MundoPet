@@ -1,5 +1,5 @@
-.container {
-    margin-top: 50px;
+#contact-container {
+    margin-top: 35px;
     margin-bottom: 0;
 }
 
@@ -16,7 +16,7 @@
     background-color:#c7ced1;
     padding: 30px;
     flex: 1;
-    min-width: 300px;
+    min-width: 290px;
     margin-top: 5px;
     margin-bottom: 0;
     box-shadow: 1px 1px 7px 1px var(--font-color-footer2);
@@ -26,7 +26,7 @@
 .informs_title {
     font-size: 1.37rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: var(--bg-color-darker);
     font-weight: 600;
 }
@@ -45,7 +45,7 @@
 }
 
 .informs-box:hover i {
-    color: #772077;
+    /* color: #772077; */
     /* background: linear-gradient(to right, #ff00ff, #862686, 
     #43439c, #00ffff); */
     background: var(--gradient-default);
@@ -74,25 +74,24 @@
     justify-content: space-between; 
     font-size: 1rem; 
     margin: 0;
-    margin-bottom: 10px;
 }
 
-#contact .informs_description {
+#contacts .informs_description {
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
 }
 
-#contact .social-media {
+#contacts .social-media {
     flex-direction: column;
     gap: 18px;
     flex-wrap: wrap;
     margin: 0;
 }
 
-#contact .social-media a {
+#contacts .social-media a {
     display: flex;
-    gap: 7px;
+    gap: 5px;
     align-items: center;
     /* color: #772077 !important; */
     color: var(--bg-color-dark);
@@ -101,13 +100,12 @@
     border-bottom: 1px solid #6f82adbb;
 }
 
-/* #contact .social-media div {
+/* #contacts .social-media div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25px;
     height: 25px;
-    border: 1px solid var(--target-color);
     border-radius: 3px;
     color: var(--target-color);
     font-size: 20px;display: flex;
@@ -116,16 +114,16 @@
     transition: ease-in-out 0.2s;
 } */
 
-/* #contact .social-media i {
+/* #contacts .social-media i {
     background-image: linear-gradient(to right, #ff00ff, #43439c, #252525);
 } */
 
-/* #contact .social-media a:hover div {
+/* #contacts .social-media a:hover div {
     background: var(--default-font-color);
     border-color: var(--default-font-color);
 }  */
 
-#contact .social-media a:hover i {
+#contacts .social-media a:hover i {
     /* background: linear-gradient(to right, #ff00ff, #862686, 
     #43439c, #00ffff); */
     background: var(--gradient-default);
@@ -134,7 +132,7 @@
     -webkit-background-clip: text;
 }
 
-#contact .social-media a:hover {
+#contacts .social-media a:hover {
     background-image: var(--gradient-default);
     background-clip: text;
     -webkit-background-clip: text;

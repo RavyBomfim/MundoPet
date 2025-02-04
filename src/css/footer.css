@@ -15,7 +15,6 @@ footer {
     padding-block: 40px;
     flex-wrap: wrap;
     color: var(--font-color-footer);
-    margin-inline: 30px;
 }
 
 #about-company {
@@ -35,7 +34,8 @@ footer {
 }
 
 .footer-areaitem .title-footer {
-    font-size: 22px;
+    font-size: 1.37rem;
+    line-height: normal;
 }
 
 .footer-areaitem .bar {
@@ -45,41 +45,41 @@ footer {
     /* background: linear-gradient(to right, #ff00ff, #862686, 
     #43439c, #00ffff); */
     background: var(--gradient-default-hover);
-    margin-top: 8px;
+    margin-top: 4px;
     margin-bottom: 25px;
 }
 
 .informations-area {
     display: flex;
     gap: 15px;
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 
 .text-area {
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 
 #company-name {
     margin-top: 18px;
 }
 
-.space-between {
+.adress-contact {
     justify-content: space-between;
     gap: 20px;
 }
 
-#contacts {
+.adress-contact #contacts {
     text-align: right;
 }
 
-#contacts a {
+.adress-contact #contacts a {
     color: var(--font-color-footer) !important;
 }
 
 .social-media {
     display: flex;
     gap: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #footer-area .social-media a {
@@ -90,7 +90,7 @@ footer {
     height: 30px;
     border-radius: 3px;
     background-color: #000;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
@@ -130,19 +130,17 @@ footer {
 
 #site-map a {
     /* color: #862686; */
-    /* color: #31658d; */
-    /* color: #2b618a; */
     background-image: var(--gradient-default);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 20px;
+    font-size: 1.25rem;
     transition: ease-in-out 0.2s;
 }
 
 #site-map a:hover {
     color: #6e1e6e;
-    font-size: 20px;
+    font-size: 1.25rem;
     /* background-image: linear-gradient(to right, #ff00ff, #43439c); */
     background-image: var(--gradient-default-hover);
     background-clip: text;
@@ -158,6 +156,7 @@ footer {
 }
 
 #newsletter-sinup {
+    gap: 0;
     min-width: 100%;
 }
 
@@ -165,14 +164,15 @@ footer {
     outline: 0;
     height: 34px;
     border: 0;
-    font-size: 15px;
+    font-size: 0.93rem;
 }
 
 #newsletter-sinup #email {
     margin-top: 30px;
-    width: 70%;
+    width: calc(100% - 100px);
     background-color: transparent;
-    font-size: 16px;
+    color: var(--font-color-footer);
+    font-size: 1rem;
 }
 
 #email:-webkit-autofill {
@@ -182,10 +182,9 @@ footer {
 }
 
 #newsletter-sinup #btn-send {
-    width: 25%;
-    margin-left: -10%;
+    width: 100px;
     align-self: flex-end;
-    margin-bottom: -5px;
+    margin-bottom: -4px;
     border-radius: 3px;
     z-index: 0;
     font-weight: 600;
@@ -210,7 +209,7 @@ footer {
 }
 
 #underline-input {
-    width: calc((75% - 10%) - 5px);
+    width: calc(100% - 103px);
     height: 3px;
     /* background: linear-gradient(to right, #ff00ff, 
     #43439c, #00ffff);
@@ -223,9 +222,9 @@ footer {
     border-top: 1px solid var(--border-footer);
     padding-block: 15px;
     color: var(--font-color-footer2);
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 
 #copy-area span {
-    font-size: 16px;
+    font-size: 1rem;
 }

@@ -15,9 +15,22 @@
     #about-us .article-container {
         flex-wrap: wrap;
     }
+
+    .informs-container {
+        padding-inline: 20px;
+        gap: 15px;
+    }
+
+    .informs-box {
+        padding: 20px;
+    }
+
+    #contact-container #location {
+        width: calc(100% - 40px);
+    }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 970px) {
 
     #banner img {
         height: 100px;
@@ -60,8 +73,54 @@
         color: var(--bg-color-darker) !important;
     }
 
+    .informs-container {
+        flex-direction: column;
+        max-width: 800px;
+        padding-inline: 50px;
+    }
+
+    .informs-box {
+        width: 100%;
+        background-color:#fff;
+        box-shadow: none;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        padding-inline: 0;
+    }
+
+    #our_location {
+        border-top: 1px solid #6f82adbb;
+        border-bottom: 1px solid #6f82adbb;
+        padding-block: 25px;
+    }
+
+    #contacts .informs_description  {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #contacts .social-media {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #contact-container #location {
+        width: calc(100% - 100px);
+    }
+
+    #footer-container {
+        max-width: 700px;
+        margin-inline: auto;
+    }
+
     #footer-area {
         flex-direction: column;
+    }
+
+    #footer-area, #copy-area  {
+        margin-inline: 30px;
     }
 
     .title-footer-box {
@@ -69,7 +128,6 @@
         flex-direction: column;
         align-items: center;
     }
-
 
     #site-map {
         justify-content: center;
@@ -89,10 +147,6 @@
         align-items: center;
     }
 
-    #newsletter-sinup #btn-send {
-        margin-left: 10px;
-    }
-
 }
 
 @media (max-width: 475px) {
@@ -101,20 +155,159 @@
         margin-inline: 20px
     }
 
-    /* #logo h1 {
-        font-size: 28px;
-    }
-    
-    #logo span {
-        font-size: 30px;
-    }
-    
-    #logo img {
-        width: 45px;
+    .principal-title h1, #about-us .principal-title {
+        font-size: 2.5rem;
     }
 
-    #menu-mobile {
-        font-size: 30px;
-    } */
+    .principal-title h1 span {
+        display: none;
+    }
+
+    .principal-title h1 strong {
+        font-size: 1.87rem;
+    }
+
+    #subtitle {
+        display: none;
+    }
+
+    .informs-container {
+        padding-inline: 30px;
+    }
+
+    .social-media {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #contacts .informs_description,
+    #contacts .social-media {
+        gap: 15px;
+    }
+
+    #contacts .social-media a {
+        width: 100%;
+        padding: 8px 12px;
+        gap: 7px;
+        box-shadow: 1px 1px 5px 1px var(--font-color-footer2);
+        border-radius: 5px;
+    }
+
+    #contacts .social-media a:hover {
+        transform: scale(1);
+    }
+
+    #contact-container #location {
+        width: calc(100% - 60px);
+    }
+
+    #newsletter-sinup {
+        justify-content: center;
+    }
+
+    #footer-area, #copy-area  {
+        margin-inline: 15px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    #subtitle {
+        margin-inline: 30px;
+        padding: 10px 15px;
+    }
+
+    .informs-container {
+        padding-inline: 20px;
+        gap: 40px;
+    }
+
+    .informs-box {
+        min-width: 260px;
+        padding: 2px;
+    }
+
+    .informs_description {
+        gap: 10px;
+        font-size: 0.87rem;
+    }
+
+    .opening_hours span {
+        display: none;
+    }
+
+    #contact-container #location {
+        width: calc(100% - 40px);
+    }
+
+    #footer-area {
+        text-align: center;
+    }
+
+    .adress-contact {
+        flex-direction: column;
+    }
+
+    #about-company {
+        min-width: 250px;
+    }
+
+    .adress-contact #contacts {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #contact-container #location {
+        width: calc(100% - 30px);
+        margin-inline: auto;
+    }
+
+}
+
+@media (max-width: 280px) {
+
+    nav {
+        margin-inline: 15px
+    }
+
+    #logo { 
+        font-size: 1.18rem;
+    }
+
+    #logo span {
+        font-size: 2.18rem;
+    }
+
+    article .title {
+        font-size: 1rem;
+    }
+
+    .article-body img {
+        width: 260px;
+    }
+
+    .informs-container {
+        padding-inline: 10px;
+    }
+
+    #contacts .informs_description {
+        padding-inline: 5px;
+    } 
+
+    #newsletter-sinup #email {
+        width: calc(100% - 70px);
+    }
+
+    #newsletter-sinup #btn-send {
+        width: 70px;
+    }
+
+    #underline-input {
+        width: calc(100% - 73px);
+    }
 
 }

@@ -57,7 +57,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 2px;
-    font-size: 22px;
+    font-size: 1.37rem;
     color: var(--font-color-dark);
 }
 
@@ -66,7 +66,7 @@ nav {
 }
 
 #logo span {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 #logo img {
@@ -75,7 +75,7 @@ nav {
 
 #menu-mobile {
     display: none;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 #menu ul {
@@ -101,14 +101,15 @@ main {
     padding-top: 80px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
+    background-color: #fff;
 }
 
 section {
     max-width: 1150px;
     margin-inline: auto;
     line-height: 25px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .principal-title {
