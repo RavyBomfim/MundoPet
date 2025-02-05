@@ -21,7 +21,9 @@
 
 <h2 id="descrição-do-projeto">Descrição do projeto</h2>
 
-Site simples de um PetShop fictício, criado como projeto na disciplina de Programação Web I da graduação de Análise e Desenvolvimento de Sistemas.
+Site simples de um PetShop fictício, criado como projeto na disciplina de Programação Web I da graduação em Análise e Desenvolvimento de Sistemas.
+
+Projeto totalmente responsivo, adaptando-se à telas grandes (desktops/laptops), telas médias (tablets) e telas pequenas (smartphones).
 
 
 <h2 id="paginas">Páginas do Site</h2>
