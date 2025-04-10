@@ -56,7 +56,7 @@ JavaScript - Linguagem de Programação
 
 <p>Você pode acessar o código fonte do projeto ou baixá-lo clicando nos links abaixo:<a/> <br>
 
-- <a href="https://ravybomfim.github.io/PetShopProject/">Acessar o código fonte do projeto<a/> <br>
+- <a href="https://ravybomfim.github.io/PetShopProject/">Acessar página<a/> <br>
 - <a href="https://github.com/RavyBomfim/PetShopProject">Acessar o código fonte do projeto<a/> <br>
 - <a href="https://github.com/RavyBomfim/PetShopProject/archive/refs/heads/main.zip">Baixar Projeto<a/>
 
