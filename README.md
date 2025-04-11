@@ -47,7 +47,7 @@ CSS - Folha de estilos
 - [x] <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"> 
 JavaScript - Linguagem de Programação
 
-<b><i>Obs: O Java Script foi bem pouco utilizado neste projeto.<i></b>
+<b><i>Obs: O Java Script foi utilizado apenas no menu deste projeto.<i></b>
 
 <hr>
 
