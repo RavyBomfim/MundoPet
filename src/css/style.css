@@ -76,6 +76,7 @@ nav {
 #menu-mobile {
     display: none;
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 #menu ul {

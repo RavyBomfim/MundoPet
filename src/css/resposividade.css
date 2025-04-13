@@ -58,6 +58,10 @@
         background-color: rgba(46, 74, 97, 0.9);
     }
 
+    .menu {
+        display: flex !important;
+    }
+
     #menu ul li {
         border-radius: 2px;
     }
