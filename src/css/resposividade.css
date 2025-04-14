@@ -32,10 +32,6 @@
 
 @media(max-width: 970px) {
 
-    #banner img {
-        height: 100px;
-    }
-
     nav {
         margin-inline: 30px
     }
@@ -81,16 +77,18 @@
         flex-direction: column;
         max-width: 800px;
         padding-inline: 50px;
+        margin-bottom: 50px;
     }
 
     .informs-box {
         width: 100%;
-        background-color:#fff;
+        background-color: transparent;
         box-shadow: none;
         text-align: center;
         margin-top: -5px;
-        margin-bottom: 5px;
-        padding-inline: 0;
+        border-radius: 0;
+        padding: 0;
+        padding-top: 25px;
     }
 
     #our_location {
@@ -99,12 +97,12 @@
         padding-block: 25px;
     }
 
-    #contacts .informs_description  {
+    #contacts-data .informs_description  {
         flex-direction: column;
         gap: 20px;
     }
 
-    #contacts .social-media {
+    #contacts-data .social-media {
         flex-direction: row;
         justify-content: center;
         gap: 30px;
@@ -157,30 +155,79 @@
 
 }
 
+@media (max-width: 768) {
+
+    #banner img {
+        height: 135px;
+    }
+
+}
+
 @media (max-width: 475px) {
 
     nav {
         margin-inline: 20px
     }
 
-    .principal-title h1, #about-us .principal-title {
+    #home .principal-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal-title, 
+    #about-us .principal-title {
         font-size: 2.5rem;
     }
 
-    .principal-title h1 span {
+    .principal-title span {
         display: none;
     }
 
-    .principal-title h1 strong {
+    .principal-title strong {
         font-size: 1.87rem;
+    }
+
+    #title-box {
+        margin-bottom: 25px;
+    }
+
+    #home #title-box, 
+    #services #title-box {
+        margin-top: -5px;
+    }
+
+    #services #title-box {
+        margin-bottom: 0;
+    }
+
+    #title-box p {
+        font-size: 1.2rem;
     }
 
     #subtitle {
         display: none;
     }
 
+    #banner img {
+        height: 85px;
+    }
+
+    #contact-container {
+        margin-top: 25px;
+    }
+
     .informs-container {
         padding-inline: 30px;
+        margin-bottom: 30px;
+    }
+
+    .informs-box {
+        padding-top: 12px;
+    }
+
+    .informs-box, 
+    #contact-container .section-location {
+        margin-block: 0;
     }
 
     .social-media {
@@ -188,12 +235,12 @@
         gap: 20px;
     }
 
-    #contacts .informs_description,
-    #contacts .social-media {
-        gap: 15px;
+    #contacts-data .informs_description,
+    #contacts-data .social-media {
+        gap: 18px;
     }
 
-    #contacts .social-media a {
+    #contacts-data .social-media a {
         width: 100%;
         padding: 8px 12px;
         gap: 7px;
@@ -201,7 +248,7 @@
         border-radius: 5px;
     }
 
-    #contacts .social-media a:hover {
+    #contacts-data .social-media a:hover {
         transform: scale(1);
     }
 
@@ -221,14 +268,59 @@
 
 @media (max-width: 375px) {
 
+    header {
+        height: 90px;
+    }
+
+    nav {
+        margin-inline: 15px
+    }
+
+    #logo { 
+        font-size: 1.18rem;
+    }
+
+    #logo span {
+        font-size: 2.18rem;
+    }
+    
+    #logo img {
+        width: 50px;
+    }
+
+    #menu-mobile {
+        font-size: 2.18rem;
+    }
+
+    #menu ul {
+        top: 90px;
+    }
+
+    main {
+        padding-top: 90px;
+    }
+
+    .principal-title, 
+    #about-us .principal-title {
+        font-size: 2.2rem;
+    }
+
+    .principal-title strong {
+        font-size: 1.64rem;
+    }
+
     #subtitle {
         margin-inline: 30px;
         padding: 10px 15px;
     }
 
+    #banner img {
+        height: 75px;
+    }
+
     .informs-container {
         padding-inline: 20px;
-        gap: 40px;
+        gap: 25px;
     }
 
     .informs-box {
@@ -269,6 +361,10 @@
 
 @media (max-width: 320px) {
 
+    #banner img {
+        height: 70px;
+    }
+
     #contact-container #location {
         width: calc(100% - 30px);
         margin-inline: auto;
@@ -278,16 +374,8 @@
 
 @media (max-width: 280px) {
 
-    nav {
-        margin-inline: 15px
-    }
-
-    #logo { 
-        font-size: 1.18rem;
-    }
-
-    #logo span {
-        font-size: 2.18rem;
+    #banner img {
+        height: 61px;
     }
 
     article .title {
@@ -302,7 +390,7 @@
         padding-inline: 10px;
     }
 
-    #contacts .informs_description {
+    #contacts-data .informs_description {
         padding-inline: 5px;
     } 
 

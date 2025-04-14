@@ -76,7 +76,7 @@ footer {
     color: var(--font-color-footer) !important;
 }
 
-.social-media {
+#footer-area .social-media {
     display: flex;
     gap: 5px;
     margin-top: 30px;

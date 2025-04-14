@@ -5,6 +5,7 @@
     border-top: 15px solid var(--target-color);
     border-bottom: 15px solid var(--target-color);
     padding: 0;
+    overflow-x: hidden;
 }
 
 #banner img {

@@ -13,8 +13,9 @@
 }
 
 .informs-box {
-    background-color:#c7ced1;
+    background-color:#f8f8f8;
     padding: 30px;
+    border-radius: 5px;
     flex: 1;
     min-width: 290px;
     margin-top: 5px;
@@ -41,10 +42,10 @@
 }
 
 .informs-box:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
-.informs-box:hover i {
+.informs-box:hover .informs_title i {
     /* color: #772077; */
     /* background: linear-gradient(to right, #ff00ff, #862686, 
     #43439c, #00ffff); */
@@ -52,6 +53,7 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    padding-inline: 10px;
 }
 
 .informs_description {
@@ -76,20 +78,21 @@
     margin: 0;
 }
 
-#contacts .informs_description {
+#contacts-data .informs_description {
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
 }
 
-#contacts .social-media {
+#contacts-data .social-media {
+    display: flex;
     flex-direction: column;
     gap: 18px;
     flex-wrap: wrap;
     margin: 0;
 }
 
-#contacts .social-media a {
+#contacts-data .social-media a {
     display: flex;
     gap: 5px;
     align-items: center;
@@ -100,7 +103,7 @@
     border-bottom: 1px solid #6f82adbb;
 }
 
-/* #contacts .social-media div {
+/* #contacts-data .social-media div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,16 +117,16 @@
     transition: ease-in-out 0.2s;
 } */
 
-/* #contacts .social-media i {
+/* #contacts-data .social-media i {
     background-image: linear-gradient(to right, #ff00ff, #43439c, #252525);
 } */
 
-/* #contacts .social-media a:hover div {
+/* #contacts-data .social-media a:hover div {
     background: var(--default-font-color);
     border-color: var(--default-font-color);
 }  */
 
-#contacts .social-media a:hover i {
+#contacts-data .social-media a:hover i {
     /* background: linear-gradient(to right, #ff00ff, #862686, 
     #43439c, #00ffff); */
     background: var(--gradient-default);
@@ -132,7 +135,7 @@
     -webkit-background-clip: text;
 }
 
-#contacts .social-media a:hover {
+#contacts-data .social-media a:hover {
     background-image: var(--gradient-default);
     background-clip: text;
     -webkit-background-clip: text;
@@ -145,7 +148,7 @@
     margin-top: 35px;
 }
 
-#location {
+#contact-container #location {
     width: calc(100% - 60px);
     margin-inline: auto;
 }

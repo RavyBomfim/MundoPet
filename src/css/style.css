@@ -99,8 +99,8 @@ nav {
 }
 
 main {
-    padding-top: 80px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 30px;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
 }
@@ -113,20 +113,24 @@ section {
     margin-bottom: 20px;
 }
 
-.principal-title {
+#title-box {
     text-align: center;
     margin-bottom: 30px;
     margin-inline: 30px;
     line-height: normal;
 }
 
-.principal-title h1 {
+.principal-title {
     font-size: 3.25rem;
     margin-bottom: 20px;
     color: var(--bg-color-dark);
 }
 
-.principal-title p {
+.principal-title strong {
+    font-size: 3rem;
+}
+
+#title-box p {
     font-size: 1.37rem;
 }
 
@@ -137,9 +141,16 @@ section {
     margin-inline: 30px;
 }
 
+.article-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .article-body p {
     font-size: 1.06rem;
     word-spacing: 2px;
+    text-indent: 30px;
 }
 
 aside {

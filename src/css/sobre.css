@@ -8,6 +8,7 @@ section {
     margin-bottom: 20px;
     color: var(--bg-color-dark);
     line-height: normal;
+    text-align: center;
 }
 
 .article-container, #location {
