@@ -4,7 +4,7 @@
 
 <b><i>Clique no botão abaixo para acessar a página do projeto.<i/></b>
 
-<a href="https://ravybomfim.github.io/PetShopProject/" target="_blank"> 
+<a href="https://ravybomfim.github.io/MundoPet/" target="_blank"> 
    <img src="https://github.com/user-attachments/assets/e43021f2-e999-401b-b627-5d324fd2203e">
 <a/>
 
