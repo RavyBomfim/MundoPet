@@ -1,4 +1,4 @@
-# PetShopProject
+# MundoPet
 
 ![Image do cabeçalho e banner do projeto](https://github.com/user-attachments/assets/440adeed-73a4-4db2-be70-e28039a87484) 
 
